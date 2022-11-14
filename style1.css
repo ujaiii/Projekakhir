@@ -1,0 +1,264 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Verdana', sans-serif;
+} 
+
+div {
+	transition: width 10s;
+}
+
+div.line {
+	background-color: gray; 
+    width: 100%;
+	height: 155px;
+	padding-top: 5px;
+	top: 50px;
+	opacity: 10;
+}
+
+
+/*=================================================================================================================================*/
+
+.topnav {
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, 0);
+	width: 98%;
+	bottom: 520px;
+	text-align: right;
+	text-shadow: 5px 5px 8px black;
+}
+
+.topnav a {
+	color: rgb(255, 255, 255);
+	text-align: right;
+	padding: 10px 10px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.topnav a:hover {
+	color: black;
+	filter: brightness(90%);
+	font-style: bold;
+}
+
+.active {
+	background-color: #838114;
+	color: #fff;
+}
+
+/*=================================================================================================================================*/
+body{
+	background-color: gray;
+}
+
+body.a {
+    background-image: url("");
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+.aaa {
+	background-color: gray;
+}
+
+body.b {
+    background-image: url();
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+body.c{
+    background-image: url("");
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+/*=================================================================================================================================*/
+
+table {
+	border: 1px solid black;
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+table.a {
+	border-collapse: collapse;
+	width: 77%;
+	text-align: left;
+}
+
+th,td {
+	border: 1px solid black;
+}
+
+th,td{
+	border: 1px solid black;
+}
+
+th {
+	background-color: black;
+	color: white;
+	padding: 15px;
+	text-align: center;
+}
+
+tr:nth-child(even) {
+	background-color: #8f8b8b;
+}
+
+td {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	opacity: 75%;
+}
+
+/*=================================================================================================================================*/
+
+h1 {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+p {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*=================================================================================================================================*/
+
+.container {
+	display: flex;
+	margin: 10px auto;
+	width: 80%;
+	height: 520px;
+	flex-direction: column;
+	padding: 10px;
+	color: rgb(255, 255, 255);
+	
+}
+
+.containert {
+	display: flex;
+	margin: 20px auto;
+	width: 80%;
+	height: 690px;
+	flex-direction: column;
+	padding: 10px;
+	color: rgb(255, 255, 255);
+}
+
+.containerf {
+	display: flex;
+	margin: 20px auto;
+	width: 80%;
+	height: 700px;
+	flex-direction: column;
+	padding: 10px;
+	color: rgb(255, 255, 255);
+}
+
+.medsos {
+	padding:5px 0;
+	margin-bottom: 5px;
+	background-color: black;
+}
+.medsos ul li {
+	display: inline-block;
+	color: #fff;
+}
+.containers {
+	width:100%;
+	margin:0 auto;
+}
+.containers:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.line{
+	background-color: black;
+}
+
+.icon-game{
+	margin: auto;
+}
+/*=================================================================================================================================*/
+
+footer {
+	background-color: black;
+	position: static;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+
+/*=================================================================================================================================*/
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+.tent {
+	width: 20%;
+	top: 600px;
+	float: right;
+}
+
+.F1 {
+	width: 400px;
+	height: 400px;
+	top: 400px;
+	right: 470px;
+	position: absolute;
+}
+.F2 {
+	width: 300px;
+	height: 250px;
+	top: 380px;
+	right: 100px;
+	position: absolute;
+}
+.F3 {
+	width: 300px;
+	height: 200px;
+	top: 640px;
+	right: 100px;
+	position: absolute;
+}
+
+.map {
+	width: 25%;
+	top: 400px;
+	left: 100px;
+	position: absolute;
+}
+
+.map2 {
+	display: flex;
+	margin: 10px auto;
+	width: 40%;
+	height: 300px;
+	padding: 10px;
+	position: absolute;
+	bottom: 500px;
+	left: 500px;
+	float: right;
+}
+
+
+
